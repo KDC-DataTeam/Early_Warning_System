@@ -15,7 +15,7 @@
 | Count_OSS                 | Int     |             | Total number of OSS in a given term                |                                                             |
 | Days_Of_OSS               | Int     |             | Total days on OSS in a given term                  |                                                             |
 | Num_Of_Incidents          | Int     |             | Total number of incidents in a given term          |                                                             |
-| Num_Of_Referrals          | Int     |             | Total number of referrals in a given term          |                                                             |
+| Num_Of_Referral           | Int     |             | Total number of referrals in a given term          |                                                             |
 | GPA                       | Float   |             | Term GPA form PS                                   |                                                             |
 | Num_Ds_And_Fs             | Int     |             | Total number of Ds and Fs earned in a given term   |                                                             |
 | ScaleScore_Math (Reading) | Int     |             | NWEA MAP Math (Reading) scale score                | See term definitions for testing window to term assignments |
