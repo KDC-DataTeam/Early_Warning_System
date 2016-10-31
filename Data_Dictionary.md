@@ -20,10 +20,10 @@
 | Num_Ds_And_Fs             | Int     |             | Total number of Ds and Fs earned in a given term   |                                                             |
 | ScaleScore_Math (Reading) | Int     |             | NWEA MAP Math (Reading) scale score                | See term definitions for testing window to term assignments |
 | Percentile_Math (Reading) | Int     |             | NWEA MAP Math (Reading) percentile score           | See term definitions for testing window to term assignments |
-| AnnualCGI_Math (Reading)  | Float   |             | NWEA MAP Math (Reading) conditional growth index   | See growth definitions table                                |
-| AnnualGP_Math (Reading)   | Int     |             | NWEA MAP Math (Reading) growth percentile          | See growth definitions table                                |
-| WindowCGI_Math (Reading)  | Float   |             | NWEA MAP Math (Reading) conditional growth index   | See growth definitions table                                |
-| WindowGP_Math (Reading)   | Int     |             | NWEA MAP Math (Reading) growth percentile          | See growth definitions table                                |
+| AnnualCGI_Math (Reading)  | Float   |             | NWEA MAP Math (Reading) conditional growth index   | See growth definitions table *Will be added in 2.0*                                |
+| AnnualGP_Math (Reading)   | Int     |             | NWEA MAP Math (Reading) growth percentile          | See growth definitions table *Will be added in 2.0*                               |
+| WindowCGI_Math (Reading)  | Float   |             | NWEA MAP Math (Reading) conditional growth index   | See growth definitions table *Will be added in 2.0*                               |
+| WindowGP_Math (Reading)   | Int     |             | NWEA MAP Math (Reading) growth percentile          | See growth definitions table *Will be added in 2.0*                               |
 | STEP_Level                | Int     |             | STEP Level from -1 to 12                           |                                                             |
 | STEP_Proficiency          | Varchar |             | Above/At/Below grade level                         |                                                             |
 | FP Level                  | Int     |             | F&P levels represented with integers A=1, B=2, etc.|                                                           |
@@ -92,6 +92,7 @@
 
 
 [Early_Warning_Assessment_Growth_Math/Reading](https://github.com/LarryKDC/Early-Warning-System/blob/master/Staged-Tables/Early_Warning_Assessment_Growth.sql)
+*Will be added in 2.0*
 
 | Field          | Type    | Key         | Description                                                         | Notes |
 |----------------|---------|-------------|---------------------------------------------------------------------|-------|
@@ -149,7 +150,8 @@
 | Target Level    | int     |             | Integer equivalent of level target (A=1, B=2, C=3…) |       |
 
 
-Early_Warning_F_AND_P_Proficiency*
+Early_Warning_F_AND_P_Proficiency
+*static table manually uploaded*
 
 | Field           | Type    | Key | Description                           | Notes                  |
 |-----------------|---------|-----|---------------------------------------|------------------------|
@@ -217,4 +219,4 @@ Early_Warning_STEP_Term_Conversion*
 | TestPeriod       | varchar |     | Test Cycle  | 3 or 4 cycles per year, varies by school year |
 | CommonTerm       | int     |     |             | See common terms table in read me             |
 
-*static table manually uploaded
+
