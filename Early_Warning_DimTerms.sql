@@ -75,7 +75,7 @@ FROM (
 		  ) T_RANK ON T_RANK.SCHOOLID = T.SCHOOLID AND T_RANK.ID = T.ID
 	WHERE T.SCHOOLID not in (999999,2001) --exclude alumni school, and NPP
 	AND T.ID >= 2000 --only include 10-11 school year and after
-	AND NOT (T.SCHOOLID = 1100 AND T.NAME LIKE 'Semester%') --do not inlcude sememster terms for KCP, they are not real terms just used for rolling up grades
+	--AND NOT (T.SCHOOLID = 1100 AND T.NAME LIKE 'Semester%') --do not inlcude sememster terms for KCP, they are not real terms just used for rolling up grades -- changed to include terms on 10/31 HAPPY HALLOWEEN!!	
 	) SUB--only include 2010 to present to simplify term transformation - could go back to 2006 if necessary
 --ORDER BY TERMKEY
 ;
