@@ -36,16 +36,16 @@
 |---------------------|--------------|---------------|------------------------------------------------------------|------------------------------------|
 | Studentkey          | int          | Primary   Key |                                                            |                                    |
 | Student_Number      | int          |               | Powerschool   Student_Number                               |                                    |
-| Sped_Classification | varchar(100) |               | Current   Special education classification                 |                                    |
-| Sped_Funding        | varchar(10)  |               | Current   special education funding level                  |                                    |
-| Homeless            | int          |               | Current   self-reported homeless status                    |                                    |
-| Ell                 | int          |               | Current   ELL status                                       |                                    |
-| Sped                | int          |               | Current   special education status (binary)                |                                    |
-| Age_Years           | int          |               | Current   Age in years                                     |                                    |
-| Dob                 | date         |               | Date of   birth                                            |                                    |
-| Ever_Retained       | int          |               | Binary   indicator for whether a student was ever retained |                                    |
-| Enrollment_Status   | varchar(40)  |               | Current   enrollment status                                |                                    |
-| Schoolid            | int          |               | Powerschool   SchoolID                                     |                                    |
+| Sped_Classification | varchar(100) |               | Current Special education classification                 |                                    |
+| Sped_Funding        | varchar(10)  |               | Current special education funding level                  |                                    |
+| Homeless            | int          |               | Current self-reported homeless status                    |                                    |
+| ELL                 | int          |               | Current ELL status                                       |                                    |
+| Sped                | int          |               | Current special education status (binary)                |                                    |
+| Age_Years           | int          |               | Current Age in years                                     |                                    |
+| DOB                 | date         |               | Date of birth                                            |                                    |
+| Ever_Retained       | int          |               | Binary indicator for whether a student was ever retained |                                    |
+| Enrollment_Status   | varchar(40)  |               | Current enrollment status                                |                                    |
+| Schoolid            | int          |               | Powerschool SchoolID                                     |                                    |
 | Schoolname          | varchar      |               |                                                            |                                    |
 | FirstName           | varchar      |               |                                                            |                                    |
 | LastName            | varchar      |               |                                                            |                                    |
