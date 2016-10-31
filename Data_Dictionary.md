@@ -54,7 +54,7 @@
 | GradeLevel          | varchar      |               | grade level text value                                     | PK3, 1st, 6th                      |
 | Homeroom            | varchar      |               | homeroom from powerschool.students.home_room               |                                    |
 | Gender              | varchar      |               |                                                            |                                    |
-| New_To_KIPP         | int          |               | binary indicator of new to kipp status                     | if not PR,DE,RE,KIPP then 1 else 0 |
+| New_To_KIPP         | int          |               | integer indicator of new to kipp status                     | 1=New 0=Returning -1=Mising value -2=Stage 4 (1800) |
 
 
 [Early_Warning_DimTerms](https://github.com/LarryKDC/Early-Warning-System/blob/master/Early_Warning_DimTerms.sql)
