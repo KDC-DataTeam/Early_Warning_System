@@ -70,6 +70,7 @@
 | SCHOOLID     | int         |             | Powerschool SchoolID                                     |                            |
 | FIRSTDAY     | date        |             | First day of the term                                    |                            |
 | LASTDAY      | date        |             | Last day of the term                                     |                            |
+| SCHOOLYEAR4DIGIT | int     |             | 4 digit school year indicator (ex. 2015-2016 = 2016)     |                            |
 | SEASON       | varchar(10) |             | Fall, winter, spring - corresponds to testing windows    | see term definitions table |
 
 
