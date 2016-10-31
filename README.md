@@ -54,6 +54,7 @@ JOIN [custom].[CUSTOM_EARLY_WARNING_TERMS] T ON T.TERMKEY = F.TERMKEY
 * There are several records for which it was not possible to assign a TermKey, so a value of -1 was assigned.
 * Behavior related measures only contain records from DeansList, and only include the 15-16 school year and beyond
 * 15-16 R1 General Knowledges (Sci & SS) grades are not available in the StoredGrades table for Quest (1013), but are in the EWS
+* MAP growth, and CGI is not currently populated as part of the master EWS job, but will be added as part of EWS 2.0
 
 ###Questions or Concerns
 Contact <datasupport@kippdc.org>
