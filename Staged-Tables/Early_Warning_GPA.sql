@@ -19,7 +19,7 @@ Select
 --, LEFT(sc.termid,2) AS YEARID
 , COALESCE(CAST(CAST(TC.ID AS VARCHAR) + CAST(S.SCHOOLID AS VARCHAR) AS INT),-1) AS TERMKEY
 , SUM((c.credit_hours * gs.grade_points))/SUM(c.credit_hours) AS "GPA"
-, GETDATE()
+, GETDATE() AS LASTUPDATED
 
 FROM [powerschool].[PowerSchool_STUDENTS] s 
 LEFT JOIN [custom].[custom_StudentBridge] csb ON csb.student_number = s.student_number
@@ -56,7 +56,7 @@ SELECT
 --, LEFT(se.termid,2) AS YEARID
 , COALESCE(CAST(CAST(TC.ID AS VARCHAR) + CAST(SG.SCHOOLID AS VARCHAR) AS INT),-1) AS TERMKEY
 , SUM(gs.grade_points * sg.potentialcrhrs)/SUM(sg.potentialcrhrs) AS "GPA"
-, GETDATE()
+, GETDATE() AS LASTUPDATED
 
     
 FROM [PowerSchool].[PowerSchool_STUDENTS] s
