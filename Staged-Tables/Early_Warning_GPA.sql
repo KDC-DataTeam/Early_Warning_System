@@ -32,7 +32,7 @@ LEFT JOIN CUSTOM.CUSTOM_TERM_CONVERSIONS TC ON TC.SCHOOLID = SC.SCHOOLID AND TC.
 
 
 WHERE gs.gradescaleid = CASE sc.schoolid WHEN 1100 THEN c.gradescaleid ELSE (SELECT id FROM [powerschool].[PowerSchool_gradescaleitem] WHERE name = 'Default') END
-AND s.enroll_status = 0
+--AND s.enroll_status = 0
 --AND LEFT(sc.termid,2) = 25
 --AND g.finalgradename IN ('S1','A1','A2','A3','A4','T1','T2','R1','R2','R3','Y1')
 AND g.grade != '--'
@@ -69,7 +69,7 @@ LEFT JOIN [powerschool].[PowerSchool_GRADESCALEITEM] gs ON gs.name = sg.grade
 LEFT JOIN CUSTOM.CUSTOM_TERM_CONVERSIONS TC ON TC.SCHOOLID = SG.SCHOOLID AND TC.FINALGRADENAME = SG.STORECODE AND TC.YEARID = LEFT(sg.termid,2)
 
 WHERE gs.gradescaleid = CASE sg.schoolid WHEN 1100 THEN c.gradescaleid ELSE (SELECT id FROM [powerschool].[PowerSchool_gradescaleitem] WHERE name = 'Default') END
-AND s.enroll_status = 0
+--AND s.enroll_status = 0
 --AND sg.storecode IN ('S1','A1','A2','A3','A4','T1','T2','R1','R2','R3','Y1')
 AND sg.grade != '--'
 AND sg.excludefromgpa = 0
