@@ -41,8 +41,8 @@
 | Homeless            | int          |               | Current self-reported homeless status                    | 1 if homeless 0 if not, null if unenrolled                                   |
 | ELL                 | int          |               | Current ELL status                                       | 1 if ELL 0 if not, null if unenrolled                                   |
 | Age_Years           | int          |               | Current Age in years                                     |                                    |
-| DOB                 | date         |               | Date of birth                                            |                                    |
-| Ever_Retained       | int          |               | Binary indicator for whether a student was ever retained |                                    |
+| DOB                 | date         |               | Date of birth                                            | YYYY-MM-DD                                   |
+| Ever_Retained       | int          |               | Binary indicator for whether a student was ever retained | 1 if ever retained, 0 if not                                   |
 | Enrollment_Status   | varchar(40)  |               | Current enrollment status                                |                                    |
 | Schoolid            | int          |               | Powerschool SchoolID                                     |                                    |
 | Schoolname          | varchar      |               |                                                            |                                    |
