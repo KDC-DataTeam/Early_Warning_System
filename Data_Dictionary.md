@@ -60,7 +60,7 @@
 
 | Field        | Type        | Key         | Description                                              | Notes                      |
 |--------------|-------------|-------------|----------------------------------------------------------|----------------------------|
-| TERMKEY      | int         | Primary Key | Combination of TermID and SchoolID                       |                            |
+| TERMKEY      | int         | Primary Key | Combination of TermID and SchoolID                       |-1 if events occured outside a defined term|
 | TERMID       | int         |             | ID from Powerschool Terms Table                          |                            |
 | TERMNAME     | varchar(40) |             | Name from Powerschool Terms table                        |                            |
 | YEARID       | int         |             | YearID from Powerschool                                  |                            |
