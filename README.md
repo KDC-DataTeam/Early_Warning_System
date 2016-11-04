@@ -56,6 +56,7 @@ JOIN [custom].[CUSTOM_EARLY_WARNING_TERMS] T ON T.TERMKEY = F.TERMKEY
 * 15-16 R1 General Knowledges (Sci & SS) grades are not available in the StoredGrades table for Quest (1013), but are in the EWS
 * MAP growth, and CGI is not currently populated as part of the master EWS job, but will be added as part of EWS 2.0
 * Only *Final* grades are included in the Num_Ds_And_Fs field
+* TermKey is -1 for records of events that occured outside of a defined school term
 
 ###Questions or Concerns
 Contact <datasupport@kippdc.org>
