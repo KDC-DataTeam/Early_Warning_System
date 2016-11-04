@@ -37,10 +37,9 @@
 | Studentkey          | int          | Primary   Key |                                                            |                                    |
 | Student_Number      | int          |               | Powerschool   Student_Number                               |                                    |
 | Sped_Classification | varchar(100) |               | Current Special education classification                 |                                    |
-| Sped_Funding        | varchar(10)  |               | Current special education funding level                  |                                    |
-| Homeless            | int          |               | Current self-reported homeless status                    |                                    |
-| ELL                 | int          |               | Current ELL status                                       |                                    |
-| Sped                | int          |               | Current special education status (binary)                |                                    |
+| Sped_Funding        | varchar(10)  |               | Current special education funding level                  | Primary Sped Indicator field                                   |
+| Homeless            | int          |               | Current self-reported homeless status                    | 1 if homeless 0 if not, null if unenrolled                                   |
+| ELL                 | int          |               | Current ELL status                                       | 1 if ELL 0 if not, null if unenrolled                                   |
 | Age_Years           | int          |               | Current Age in years                                     |                                    |
 | DOB                 | date         |               | Date of birth                                            |                                    |
 | Ever_Retained       | int          |               | Binary indicator for whether a student was ever retained |                                    |
