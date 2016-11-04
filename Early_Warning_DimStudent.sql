@@ -46,7 +46,7 @@ SC.ABBREVIATION,
 PS.FIRST_NAME,
 PS.LAST_NAME,
 PS.LASTFIRST,
-PS.GRADE_LEVEL, --current grade level numeric
+PS.GRADE_LEVEL AS GRADELEVEL_NUMERIC, --current grade level numeric
 S.GRADELEVEL, --current grade level string
 PS.HOME_ROOM, --current home room
 PS.GENDER,
