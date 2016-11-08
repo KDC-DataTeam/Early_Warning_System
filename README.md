@@ -50,6 +50,11 @@ JOIN [custom].[CUSTOM_EARLY_WARNING_STUDENTS] S ON S.STUDENTKEY = F.STUDENTKEY
 JOIN [custom].[CUSTOM_EARLY_WARNING_TERMS] T ON T.TERMKEY = F.TERMKEY
 ``` 
 
+###Rolling over from the new school year
+
+* Update the custom.custom_early_warning_step_term_conversion table with cycles for the new school year
+...
+
 ###Implementation Notes
 * There are several records for which it was not possible to assign a TermKey, so a value of -1 was assigned.
 * Behavior related measures only contain records from DeansList, and only include the 15-16 school year and beyond
