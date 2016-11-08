@@ -211,7 +211,7 @@ Early_Warning_F_AND_P_Proficiency
 | TestScore        | int     |     | Step Level from -1 to 12   |       |
 | ProficiencyLevel | varchar |     | Below, On, or Above target |       |
 
-Early_Warning_STEP_Term_Conversion*
+Early_Warning_STEP_Term_Conversion *static table manually uploaded*
 
 | Field            | Type    | Key | Description | Notes                                         |
 |------------------|---------|-----|-------------|-----------------------------------------------|
