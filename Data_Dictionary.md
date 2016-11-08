@@ -182,6 +182,7 @@ Early_Warning_F_AND_P_Proficiency
 | Num_Ds_AND_Fs   | Int         |     | Total number of D's or F's earned in a given term |       |
 
 [Early_Warning_RIT_to_Reading](https://github.com/LarryKDC/Early-Warning-System/blob/master/Staged-Tables/Early_Warning_RIT_to_Reading%20.sql)
+*Will be added in 2.0*
 
 | Field             | Type    | Key | Description                       | Notes                                      |
 |-------------------|---------|-----|-----------------------------------|--------------------------------------------|
